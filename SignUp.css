@@ -1,0 +1,110 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    overflow:hidden;
+}
+.main{
+    display: flex;
+    background-color:antiquewhite;
+    
+}
+.signuph{
+    color: skyblue;
+}
+
+.signup{
+    width: 100%;
+    height: 100%;
+    
+}
+.photo{
+    /* background-image: url("song.png"); */
+    width: 100%;
+    height: 100%;
+}
+.h20{
+    color: white;
+}
+.h21{
+    margin-left: 4rem;
+    color: skyblue;
+}
+@media(max-width:745px){
+    .photo{
+        display: none;
+    }
+}
+
+.signup{
+    margin-left: 3rem;
+}
+
+#First{
+    width:80%;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    /* margin-right: 1rem; */
+}
+
+#number{
+    width:80%;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+#gmail{
+    width:80%;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+}
+#PassWord{
+    width: 80%;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.checkbox{
+    display:flex;
+}
+
+.btn{
+    background-color: skyblue;
+    width: 80%;
+    align-items: center;
+    border-radius: 0.5rem;
+    height:1.5rem ;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blue;
+}
+
+.or{
+    text-align: center;
+}
+
+.google{
+    margin-bottom: 0.2rem;
+}
+
+.chanel{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.butn{
+    background-color: white;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+.butn:hover{
+    cursor: pointer;
+}
+
+.last{
+    text-align: center;
+}
+.last1{
+    text-decoration: none;
+}

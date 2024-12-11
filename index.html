@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./assets/logo (2).png">
+        <title>BeatBox - Web Player: for Music for everyone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="SignIn.css">
+    </head>
+    <body>
+        <div class="main" >
+            <div class="photo">
+                <img src="./assets/logo (2).png" alt="">
+            </div>
+            <div class="sign">
+                <h2 class="heading">Sign In</h2>
+                <form onsubmit="return Data()" action="beatbox.html">
+                    <p>Email</p>
+                    <input type="email" id="email" placeholder="Enter Your Email"  required>
+                    <br><br>
+                    <p>Password</p>
+                    <input type="password" id="password" placeholder="Enter Your Password" required>
+                    <br><br>
+                    <button  class="btn">Sign in</button>
+                    <br><br>
+                </form>
+                <p class="or">OR</p>
+                <br><br>
+                <div class="chanel">
+                    <div class="google">
+                        <button class="butn" ><i class="fa-brands fa-google"></i>Sign in with Google</button>
+                    </div>
+                    <div class="facebook">
+                        <button class="butn"><a class="facebook1" href="https://www.facebook.com/login.php/">Sign in with facebook</a></button>
+                    </div>
+                </div>
+
+                <form action="SignUp.html">
+                    <P class="last">Don't have an account?
+                        <button style="border: none; background-color: antiquewhite; cursor: pointer;">Sign_up</button>
+                    </p>
+                </form>
+
+            </div>
+        </div>
+        <script src="SignUp.js"></script>
+        <script src="Signin.js"></script>  
+    </body>
+</html>
